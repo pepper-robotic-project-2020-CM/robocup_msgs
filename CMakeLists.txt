@@ -19,6 +19,7 @@ add_message_files(FILES
   Entity2D.msg
   Entity2DList.msg
   InterestPoint.msg
+  InterestPoints.msg
   Action.msg
   NavigationAction.msg
   gm_bus_msg.msg
@@ -42,7 +43,7 @@ add_message_files(FILES
  generate_messages(
    DEPENDENCIES
    std_msgs
-   geometry_msgs  
+   geometry_msgs
    # Or other packages containing msgs
  )
 
